@@ -21,9 +21,8 @@ button {
 button:hover {
     background-color: #45a049; /* Couleur de fond du bouton au survol */
 }
-.container{
-    
-}
+
+
 .container h1{
     color: blue;
 }
