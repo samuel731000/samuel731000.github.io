@@ -16,3 +16,11 @@ anime({
     loop: true,
     duration: 3000
 });
+
+setTimeout(function(){
+    $('body').fadeOut(500);
+    setTimeout(function(){
+        window.location = 'index.html'
+    },500) 
+    
+},2000)    
