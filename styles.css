@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    border: none; /* Supprime la bordure du bouton */
+    border-radius: 5px; /* Ajoute des coins arrondis au bouton */
+    cursor: pointer; /* Change le curseur au survol du bouton */
+}
+
+button:hover {
+    background-color: #45a049; /* Couleur de fond du bouton au survol */
+}
+.container{
+    width: 80%;
+    max-width: 400px;
+    margin: 100 auto;
+}
+.container h1{
+    color: blue;
+}
+.container h2{
+    color:darkcyan
+}
+.container img {
+    width: 100%;
+}
