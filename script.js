@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', function() {
-    alert('Bienvenue sur mon site !');
+    console.log('Bienvenue sur mon site !');
 });
