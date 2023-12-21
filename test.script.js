@@ -20,7 +20,7 @@ anime({
 setTimeout(function(){
     $('body').fadeOut(500);
     setTimeout(function(){
-        window.location = 'index.html'
+        window.location = 'page html'
     },500) 
     
 },2000)    
