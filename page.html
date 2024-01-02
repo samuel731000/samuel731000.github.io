@@ -1,66 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head> 
     
-</head>
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barre de navigation</title>
-    <style>
         
-         /* Style CSS pour la barre de navigation */
-         nav {
-            background-color: #333;
-             /* Couleur de fond */
-            overflow: hidden;
-        }
-       
-         /* Style pour les liens de la barre de navigation */
-        nav li {
-            float: left;
-        /* Alignement à gauche */
-            display: block;
-        /* Affichage en bloc pour occuper toute la largeur */  
-            color: white;
-         /* Couleur du texte */
-            text-align: center;
-         /* Alignement du texte */
-            padding: 14px 16px;
-         /* Espacement autour du texte */
-            text-decoration: none;
-         /* Supprimer le soulignement par défaut des liens */
-        }
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barre de navigation</title>
+        <style>
+            /* Style CSS pour la barre de navigation */
+            nav {
+                background-color: #333;
+                overflow: hidden;
+            }
+    
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+    
+            nav li {
+                float: left;
+            }
+    
+            nav li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+    
+            nav li a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <!-- Structure HTML de la barre de navigation -->
+        <nav>
+            <a href="remersi.html">remerciment</a>
+            <a href="intro.html">introduction</a>
+            <a href="presentation.html">presentation de l'entreprise </a>
+            <a href="aquoicon.html">presentation du metier</a>
+            <a href="semaine.html">compte-rendu journalier</a>
+            <a href="conclution.html">conclution</a>
+        </nav>
+        <!-- Le reste du contenu de la page va ici -->
+    
+    </body>
 
-        /* Style pour les liens de la barre de navigation au survol de la souris */
-        nav a:hover{ 
-            background-color: #ddd;
-         /* Couleur de fond au survol */
-            color: rgba(0, 0, 0, 0);
-         /* Couleur du texte au survol */
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Structure HTML de la barre de navigation -->
-    <nav>
-    <a href="remersi.html">remerciment</a>
-    <a href="intro.html">introduction</a>
-    <a href="presentation.html">presentation de l'entreprise </a>
-    <a href="aquoicon.html">presentation du metier</a>
-    <a href="semaine.html">compte-rendu journalier</a>
-    <a href="conclution.html">conclution</a>
-    </nav>
-
-    <!-- Le reste du contenu de la page va ici -->
-
-</page>
-
-</body>
-
-</html>
+    </html>
