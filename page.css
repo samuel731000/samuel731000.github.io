@@ -1,0 +1,13 @@
+button {
+    background-color: #4CAF50; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    border: none; /* Supprime la bordure du bouton */
+    border-radius: 5px; /* Ajoute des coins arrondis au bouton */
+    cursor: pointer; /* Change le curseur au survol du bouton */
+}
+
+button:hover {
+    background-color: #45a049; /* Couleur de fond du bouton au survol */
+}
+
