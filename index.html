@@ -71,6 +71,33 @@
 
     <script src="page.html"></script>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation de Titre</title>
+    <style>
+        /* Définition de l'animation avec @keyframes */
+        @keyframes moveTitle {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        /* Style CSS pour le titre avec l'animation */
+        h1 {
+            animation: moveTitle 1s ease-out;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Structure HTML avec le titre à animer -->
+    <h1>Mon Titre Animé</h1>
+
+    <!-- Le reste du contenu de la page va ici -->
+
 </body>
 
 </html>
