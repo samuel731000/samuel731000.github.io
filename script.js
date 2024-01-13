@@ -17,21 +17,3 @@ function fitElementToParent(el, padding) {
     resize();
     window.addEventListener('resize', resize);
   }
-
-  // main.js
-
-document.addEventListener('DOMContentLoaded', function () {
-  // Code à exécuter une fois que le DOM est chargé
-  animatePageTransition();
-});
-
-function animatePageTransition() {
-  // Ajoutez une classe à la balise body pour déclencher l'animation de transition
-  document.body.classList.add('page-transition');
-
-  // Attendez la fin de l'animation (par exemple, 1 seconde) puis redirigez vers la nouvelle page
-  setTimeout(function () {
-      // Remplacez 'page2.html' par le nom de la nouvelle page
-      window.location.href = 'page2.html';
-  }, 1000); // 1000 millisecondes = 1 seconde
-}
