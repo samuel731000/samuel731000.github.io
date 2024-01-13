@@ -32,11 +32,3 @@ button:hover {
 .container img {
     width: 100%;
 }
-
-/* styles.css */
-
-/* Ajoutez une transition pour la classe page-transition */
-body.page-transition {
-    opacity: 0; /* Opacité initiale à 0 pour une transition de fondu */
-    transition: opacity 1s ease-in-out; /* Transition de 1 seconde avec un effet d'entrée/sortie */
-}
