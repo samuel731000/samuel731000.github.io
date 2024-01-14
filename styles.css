@@ -32,3 +32,15 @@ button:hover {
 .container img {
     width: 100%;
 }
+
+/* styles.css */
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.blinking {
+    animation: blink 1s infinite; /* L'animation dure 1 seconde et se répète indéfiniment */
+}
