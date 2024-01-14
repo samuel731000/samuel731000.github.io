@@ -32,11 +32,3 @@ button:hover {
 .container img {
     width: 100%;
 }
-
-/* styles.css */
-
-/* Ajoutez des styles pour l'animation (par exemple, changement d'opacité) */
-.page-transition {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
